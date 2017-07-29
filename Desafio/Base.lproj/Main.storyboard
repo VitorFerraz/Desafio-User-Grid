@@ -37,7 +37,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UserCell" id="0B5-Yi-7s7" customClass="UserCollectionViewCell" customModule="Desafio" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="20" width="304" height="211"/>
+                                        <rect key="frame" x="0.0" y="19.5" width="304" height="211"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="304" height="211"/>
@@ -103,22 +103,22 @@
                                     <outlet property="delegate" destination="3is-TI-S9e" id="8qn-Y4-Lbv"/>
                                 </connections>
                             </collectionView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="-60" translatesAutoresizingMaskIntoConstraints="NO" id="4uu-Dh-nsO">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="-50" translatesAutoresizingMaskIntoConstraints="NO" id="4uu-Dh-nsO">
                                 <rect key="frame" x="12" y="380" width="296" height="20"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdg-2z-4Ld">
-                                        <rect key="frame" x="0.0" y="0.0" width="138.5" height="20"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="132" height="20"/>
                                         <state key="normal" image="back_page"/>
                                         <connections>
                                             <action selector="btnChangePage:" destination="3is-TI-S9e" eventType="touchUpInside" id="vja-fk-nBl"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="7fl-Cf-M6g">
-                                        <rect key="frame" x="78.5" y="0.0" width="139" height="20"/>
+                                        <rect key="frame" x="82" y="0.0" width="132" height="20"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </stackView>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAN-Wv-Qu0">
-                                        <rect key="frame" x="157.5" y="0.0" width="138.5" height="20"/>
+                                        <rect key="frame" x="164" y="0.0" width="132" height="20"/>
                                         <state key="normal" image="next_page">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
